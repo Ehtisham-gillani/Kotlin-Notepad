@@ -21,6 +21,6 @@ Navigation Component: Simplifies navigation and ensures a single activity archit
 
 MVVM Architecture: Decouples the UI from business logic for better testability and maintainability.
 
-Hilt: Manages dependency injection to simplify code and improve scalability.
+Koin: Manages dependency injection to simplify code and improve scalability.
 
 Room Database: Local database for persisting notes.
