@@ -9,7 +9,6 @@ import com.example.mynotepad.ui.fragments.notes_list.viewModel.NoteViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
-
 val appModule = module {
     // Database setup
     single {
@@ -30,5 +29,5 @@ val appModule = module {
     single { GetNotesUseCase(get()) }
 
     // ViewModels
-    viewModel() { NoteViewModel(get(), get()) }
+    viewModel { NoteViewModel(get(), get()) }
 }

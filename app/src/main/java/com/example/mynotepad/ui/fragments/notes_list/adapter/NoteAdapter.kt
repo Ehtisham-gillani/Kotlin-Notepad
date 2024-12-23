@@ -40,7 +40,7 @@ class NoteAdapter(
                 }
             }
 
-            /*binding.buttonDelete.setOnClickListener {
+          /*  binding.buttonDelete.setOnClickListener {
                 val position = adapterPosition
                 if (position != RecyclerView.NO_POSITION) {
                     onDeleteClick(getItem(position))

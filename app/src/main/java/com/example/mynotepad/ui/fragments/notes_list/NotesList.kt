@@ -5,8 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
+import org.koin.androidx.viewmodel.ext.android.viewModel
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
@@ -22,7 +22,7 @@ import kotlinx.coroutines.launch
 
 class NotesList : Fragment() {
     private lateinit var binding: FragmentNotesListBinding
-    private val viewModel: NoteViewModel by viewModels()
+    private val viewModel: NoteViewModel by viewModel<NoteViewModel>()
     private val noteAdapter = NoteAdapter(
         onNoteClick = { note ->
             findNavController().navigate(

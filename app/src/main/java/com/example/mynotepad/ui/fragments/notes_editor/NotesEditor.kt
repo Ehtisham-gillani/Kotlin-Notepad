@@ -11,7 +11,6 @@ import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.MenuProvider
-import androidx.fragment.app.viewModels
 import com.example.mynotepad.R
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
@@ -19,10 +18,11 @@ import com.example.mynotepad.data.Note
 import com.example.mynotepad.databinding.FragmentNotesEditorBinding
 import com.example.mynotepad.model.NoteArg
 import com.example.mynotepad.ui.fragments.notes_list.viewModel.NoteViewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class NotesEditor : Fragment() {
     private lateinit var binding: FragmentNotesEditorBinding
-    private val viewModel: NoteViewModel by viewModels()
+    private val viewModel: NoteViewModel by viewModel<NoteViewModel>()
     private val args: NotesEditorArgs by navArgs()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
