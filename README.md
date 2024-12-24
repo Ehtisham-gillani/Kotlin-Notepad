@@ -1,5 +1,5 @@
 # **Kotlin Notepad App 📝**
-A simple Notepad app built with Kotlin, showcasing the use of Navigation Component, MVVM architecture, and Hilt dependency injection. This app allows users to perform CRUD (Create, Read, Update, Delete) operations on notepads.
+A simple Notepad app built with Kotlin, showcasing the use of Navigation Component, MVVM architecture, and Koin dependency injection. This app allows users to perform CRUD (Create, Read, Update, Delete) operations on notepads.
 
 
 Features
@@ -19,7 +19,7 @@ Kotlin: Programming language for building Android apps.
 
 Navigation Component: Simplifies navigation and ensures a single activity architecture.
 
-MVVM Architecture: Decouples the UI from business logic for better testability and maintainability.
+Clean Architecture: Decouples the UI from business logic for better testability and maintainability.
 
 Koin: Manages dependency injection to simplify code and improve scalability.
 
