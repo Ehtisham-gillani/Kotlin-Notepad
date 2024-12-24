@@ -1,6 +1,7 @@
 package com.example.mynotepad.data
 
 import com.example.mynotepad.domain.NoteRepository
+import com.example.mynotepad.model.Note
 import kotlinx.coroutines.flow.Flow
 
 class NoteRepositoryImpl(

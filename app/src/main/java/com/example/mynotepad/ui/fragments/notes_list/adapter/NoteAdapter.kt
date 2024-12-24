@@ -4,7 +4,7 @@ import android.text.format.DateUtils
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
-import com.example.mynotepad.data.Note
+import com.example.mynotepad.model.Note
 import com.example.mynotepad.databinding.ItemNoteBinding
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView

@@ -14,7 +14,7 @@ import androidx.core.view.MenuProvider
 import com.example.mynotepad.R
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.mynotepad.data.Note
+import com.example.mynotepad.model.Note
 import com.example.mynotepad.databinding.FragmentNotesEditorBinding
 import com.example.mynotepad.model.NoteArg
 import com.example.mynotepad.ui.fragments.notes_list.viewModel.NoteViewModel

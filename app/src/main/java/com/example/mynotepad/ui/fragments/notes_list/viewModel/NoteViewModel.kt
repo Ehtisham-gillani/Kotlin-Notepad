@@ -2,7 +2,7 @@ package com.example.mynotepad.ui.fragments.notes_list.viewModel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mynotepad.data.Note
+import com.example.mynotepad.model.Note
 import com.example.mynotepad.domain.NoteRepository
 import com.example.mynotepad.domain.NoteResult
 import com.example.mynotepad.domain.useCases.GetNotesUseCase
